@@ -1,7 +1,7 @@
 shadowsocks miwifi
 ==================
 
-example of config.json
+config.json example
 
     {
       "server":"your server's IP",
