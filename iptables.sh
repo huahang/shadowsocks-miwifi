@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 iptables -t nat -N SHADOWSOCKS
-iptables -t nat -A SHADOWSOCKS -d 106.186.123.206 -j RETURN
+iptables -t nat -A SHADOWSOCKS -d a.b.c.d -j RETURN # Change this line to your own shadowsocks server IP
 iptables -t nat -A SHADOWSOCKS -d 0.0.0.0/8 -j RETURN
 iptables -t nat -A SHADOWSOCKS -d 10.0.0.0/8 -j RETURN
 iptables -t nat -A SHADOWSOCKS -d 127.0.0.0/8 -j RETURN
